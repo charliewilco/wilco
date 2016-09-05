@@ -1,0 +1,38 @@
+{
+  "name": "wilco",
+  "version": "0.0.1",
+  "description": "An opinionated CSS linter",
+  "bin": {
+    "wilco": "cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run bundle",
+    "bundle": "babel index.js -o ./cli.js"
+  },
+  "keywords": [
+    "stylelint-config",
+    "stylelint",
+    "css"
+  ],
+  "author": "charles peters <charlespeters42@gmail.com> (https://charlespeters.net)",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^7.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "meow": "^3.7.0",
+    "stylelint-config-wilco": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
