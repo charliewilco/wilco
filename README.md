@@ -1,6 +1,4 @@
-<center>
-  <h1>![Wilco](/header.svg)</h1>
-</center>
+# ![Wilco](/wilco.png)</h1>
 
 <a href="https://github.com/charlespeters/VVWIP">
   <img align="right" src="https://unpkg.com/vvwip/AWIP.svg" alt="AWIP" />
