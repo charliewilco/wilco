@@ -21,8 +21,6 @@ const wilco = function (files) {
           head: [chalk.blue('Ln:Cl'), chalk.blue('Rule')]
         })
         for (let x = 0; x < warnings.length; x++) {
-          console.log(warnings[x])
-
           const reference = chalk.bold.cyan(`${warnings[x].line}:${warnings[x].column}`)
           const violation = chalk.yellow(warnings[x].text)
 
