@@ -1,6 +1,6 @@
 {
   "name": "wilco",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "An opinionated CSS linter",
   "bin": {
     "wilco": "cli.js"
