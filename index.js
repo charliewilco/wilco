@@ -30,7 +30,7 @@ const linter = x => stylelint.lint({
       process.stdout.write(`${table.toString()}\n`)
     }
   } else {
-    const noErr = boxen(chalk.cyan.bold(`Your code doesn\'t contain any linting violations!`), {
+    const noErr = boxen(chalk.cyan.bold(`Your code doesn't contain any linting violations!`), {
       padding: 1,
       borderStyle: 'classic'
     })
@@ -64,4 +64,4 @@ const cli = meow(`
   alias: { v: 'version' }
 })
 
-wilco(cli.input[0])
+export default wilco(cli.input[0])
