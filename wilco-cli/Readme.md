@@ -1,4 +1,4 @@
-# ![Wilco](/wilco.png)</h1>
+# ![Wilco](/.github/wilco.png)</h1>
 
 <a href="https://github.com/charlespeters/VVWIP">
   <img align="right" src="https://unpkg.com/vvwip/AWIP.svg" alt="AWIP" />
@@ -9,7 +9,9 @@ Wilco (_def_: short for will comply) is a linter built on top of [Stylelint](htt
 ## Install
 
 ```sh
-npm install --global wilco
+yarn global add wilco
+
+yarn add -D wilco
 ```
 
 ## Usage

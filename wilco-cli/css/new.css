@@ -1,0 +1,10 @@
+a {
+  top: 0.2em;
+  transition-duration: 5ms;
+}
+
+
+html, body {
+  color: #f7f7f7;
+  background: #999999;
+}
